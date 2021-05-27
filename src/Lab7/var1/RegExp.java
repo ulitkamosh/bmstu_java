@@ -8,6 +8,8 @@ import java.util.List;
 
 public class RegExp {
     static Path FILE = Paths.get("src/source/Lab7_var1.txt");
+    private int k = 3;
+    private char symbol = '?';
 
     private List<String> OpenFile() {
         try {
@@ -21,8 +23,7 @@ public class RegExp {
     public void ChangeSymbol() {
         List<String> list = OpenFile();
         for (String line:list) {
-            line.replaceAll("[\\s]{2,}", " ");
-            System.out.println(line);
+            System.out.println(line.replaceAll(String.format("(\\b\\p{L}{%d})\\p{L}", k),"$1" + symbol));
         }
     }
 }
