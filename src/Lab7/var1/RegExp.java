@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RegExp {
-    static Path FILE = Paths.get("source/Lab7_var1.txt");
+    static Path FILE = Paths.get("src/source/Lab7_var1.txt");
 
     private List<String> OpenFile() {
         try {
