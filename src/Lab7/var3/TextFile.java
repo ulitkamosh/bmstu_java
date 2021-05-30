@@ -7,7 +7,6 @@ import java.util.List;
 
 public class TextFile {
     private static final Path FILE = Paths.get("src/source/Lab7_var1.txt");
-    private static final String DOT = ".";
 
     public void OpenFile() {
         try {
@@ -52,9 +51,8 @@ public class TextFile {
     }
 
     private void DecodeText(StringBuilder encodedText) {
-        char[] symbols = encodedText.toString().toCharArray();
         StringBuilder decodedText = new StringBuilder();
-        int length = symbols.length;
+        int length = encodedText.toString().toCharArray().length;
         for (int i = 0; i < length/3; i++) {
             decodedText.append(encodedText.charAt(i));
             decodedText.append(encodedText.charAt(i + length/3));
