@@ -53,9 +53,5 @@ public class FileText {
         }
     }
 
-    public void SomeMethod(){
-        System.out.println("test");
-    }
-
 }
 
