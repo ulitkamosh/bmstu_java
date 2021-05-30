@@ -1,4 +1,4 @@
-package Lab7.var2;
+package Lab7.var3;
 
 public class Main {
     public static void main(String[] args) {
