@@ -12,7 +12,7 @@ public class TextFile {
     Path file;
 
     TextFile() {
-        this.file = Paths.get("/Users/artemzidkov/Desktop/Lab5/file1.txt");
+        this.file = Paths.get("src/source/Lab7_var1.txt");
     }
 
     TextFile(Path file) {
