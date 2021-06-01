@@ -19,5 +19,9 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             System.out.println("...");
         }
+
+        Robot robot = new Robot();
+
+        robot.move(20);
     }
 }
