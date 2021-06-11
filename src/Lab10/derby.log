@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Jun 02 19:37:27 MSK 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0179-cd96-41a3-000017c4c5a8 
+on database directory /home/artem/Desktop/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@1f041bad 
+Loaded from file:/home/artem/.local/lib/python2.7/site-packages/pyspark/jars/derby-10.12.1.1.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_292-8u292-b10-0ubuntu1~16.04.1-b10
+user.dir=/home/artem/Desktop
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-142-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
